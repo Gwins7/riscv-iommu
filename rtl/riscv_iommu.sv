@@ -16,6 +16,11 @@
 //
 // Description: RISC-V IOMMU Top Module.
 
+`include "riscv_pkg.svh"
+`include "rv_iommu_pkg.svh"
+`include "rv_iommu_reg_pkg.svh"
+`include "rv_iommu_field_pkg.svh"
+
 module riscv_iommu #(
     // Number of IOTLB entries
     parameter int unsigned  IOTLB_ENTRIES       = 4,

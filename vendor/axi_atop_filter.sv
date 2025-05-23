@@ -36,6 +36,8 @@
 /// other write or read burst that is in-flight at the same time**.
 
 /* verilator lint_off WIDTH */
+`include "axi_pkg.svh"
+
 module axi_atop_filter #(
   /// AXI ID width
   parameter int unsigned AxiIdWidth = 0,

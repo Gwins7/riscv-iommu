@@ -19,12 +19,12 @@
 `include "assertions.svh"
 `include "register_interface/typedef.svh"
 
-`include "riscv_pkg.sv"
-`include "lint_wrapper_pkg.sv"
+`include "riscv_pkg.svh"
+`include "lint_wrapper_pkg.svh"
 
-`include "rv_iommu_pkg.sv"
-`include "rv_iommu_reg_pkg.sv"
-`include "rv_iommu_field_pkg.sv"
+`include "rv_iommu_pkg.svh"
+`include "rv_iommu_reg_pkg.svh"
+`include "rv_iommu_field_pkg.svh"
 
 module lint_checks 
 import lint_wrapper::*;

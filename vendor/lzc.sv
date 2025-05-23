@@ -23,7 +23,7 @@
 /// Furthermore, this unit contains a more efficient implementation for Verilator (simulation only).
 /// This speeds up simulation significantly.
 
-`include "cf_math_pkg.sv"
+`include "cf_math_pkg.svh"
 
 /* verilator lint_off UNOPTFLAT */
 

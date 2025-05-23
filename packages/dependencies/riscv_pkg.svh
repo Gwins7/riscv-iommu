@@ -18,7 +18,7 @@
 `ifndef RISCV_PKG
 `define RISCV_PKG
 
- `include "cv64a6_imafdc_sv39_config_pkg.sv"
+ `include "cv64a6_imafdc_sv39_config_pkg.svh"
 
 package riscv;
 

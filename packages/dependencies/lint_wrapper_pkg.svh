@@ -18,7 +18,7 @@
  `ifndef LINT_WRAPPER
  `define LINT_WRAPPER
 
- `include "axi_pkg.sv"
+ `include "axi_pkg.svh"
 
 package lint_wrapper;
 

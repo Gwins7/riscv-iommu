@@ -16,6 +16,8 @@
 // Description: RISC-V IOMMU SV package.
 //
 
+`include "riscv_pkg.svh"
+
 `ifndef RV_IOMMU_PKG
 `define RV_IOMMU_PKG
 
